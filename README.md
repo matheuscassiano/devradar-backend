@@ -19,6 +19,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Abstração: Expo
 - Banco de Dados: MongoDB
 <hr>
+
+<p>Por estar utilizando o Gitpod este erro está ocorrendo quando tento abrir uma WebView</p>
+
+```
+    Encountered an error loading page, Object {
+        "canGoBack": false,
+        "canGoForward": false,
+        "code": -1,
+        "description": "net::ERR_CACHE_MISS",
+        "loading": false,
+        "target": 247,
+        "title": "",
+        "url": "https://github.com/filipedeschamps"
+    }
+```
+
 <p>
   Esse projeto está sob a licença MIT. <br>
   Ideia original do projeto - Rocketseat -
