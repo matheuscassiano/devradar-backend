@@ -1,41 +1,15 @@
-<h1 align="center">
-    <img alt="DevRadar" title="#delicinha" src="https://github.com/Rocketseat/semana-omnistack-10/raw/master/.github/devradar.svg?sanitize=true" width="250px" />
-</h1>
-<p>Um projeto desenvolvido durante a 10ª semana OmniStack da Rocketseat, uma semana intensiva de conteúdo sobre Javascript e React.</p>
+# Backend 
+Backend programado em NodeJS para o preojeto da Semana Omnistack, DevEncontrar. Esta parte do projeto é uma RestAPI onde deve ser possivel cadastrar, listar e procurar os desenvolvedores que estão perto de você e/ou que trabalham com as mesmas tecnologías que você. Sendo util para empresas e contratantes que precisão de pessoas para proseguir com seus projetos.
 
-<p align="center">
-  <img alt="Frontend" src="https://github.com/Rocketseat/semana-omnistack-10/raw/master/.github/devradar.png" width="100%">
-</p>
+## Detalhes
 
-## Ideia
-<p>O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias. É um otimo projeto para tentar deixar mais facil de se encontrar profissionais com as tecnologias que as empresas, ou até outras pessoas, precisam.</p>
+### Banco de Dados
+O Banco de dados utilizado neste projeto é um banco de dados não-relacional, o MongoBD. Escolhida por sua facilidade de utilização e por oferecer um armazenamento em nuvem de 512mb, o que é mais do que o suficiente para uma aplicação que não irá armazenar medias <i>- como videos, audios e imagens -</i> sendo completamente gratuito e pratico.
 
-## Tecnologias
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+### Arquitetura
+O projeto leva em conta partes da arquitetura MVC, <i> Model, View, Controller</i>, chegando a utilizar somente Models e Controller, já que a parte de View será emplementada na utilização do ReactJS e do React Nativa no Frontend da aplicação. 
 
-- Backend: Node.js
-- Web: React
-- Mobile: React Native
-- Abstração: Expo
-- Banco de Dados: MongoDB
-<hr>
+### Bibliotecas
+São poucas as bibliotecas importadas, sendo elas o Express para configuração de rotas, Axios para utilização de dados da API do GitHub, e Mogoose para a estruturação do banco de dados MongoDB. Para desenvolvimento foi instalda a biblioteca Nodemon para facilitar o desenvolvimento sem ter que reiniciar o servidor à cada atualização.
 
-<p>Por estar utilizando o Gitpod este erro está ocorrendo quando tento abrir uma WebView</p>
-
-```
-    Encountered an error loading page, Object {
-        "canGoBack": false,
-        "canGoForward": false,
-        "code": -1,
-        "description": "net::ERR_CACHE_MISS",
-        "loading": false,
-        "target": 247,
-        "title": "",
-        "url": "https://github.com/filipedeschamps"
-    }
-```
-
-<p>
-  Esse projeto está sob a licença MIT. <br>
-  Ideia original do projeto - Rocketseat -
-</p>
+## Imagens
