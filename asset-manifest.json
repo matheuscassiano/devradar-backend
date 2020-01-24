@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/devradar/static/css/main.21dbb4e6.chunk.css",
+    "main.js": "/devradar/static/js/main.c2f24214.chunk.js",
+    "main.js.map": "/devradar/static/js/main.c2f24214.chunk.js.map",
+    "runtime-main.js": "/devradar/static/js/runtime-main.352972f3.js",
+    "runtime-main.js.map": "/devradar/static/js/runtime-main.352972f3.js.map",
+    "static/js/2.3e331b21.chunk.js": "/devradar/static/js/2.3e331b21.chunk.js",
+    "static/js/2.3e331b21.chunk.js.map": "/devradar/static/js/2.3e331b21.chunk.js.map",
+    "index.html": "/devradar/index.html",
+    "precache-manifest.43000bb1f0bf015ce2e610e8623d1dec.js": "/devradar/precache-manifest.43000bb1f0bf015ce2e610e8623d1dec.js",
+    "service-worker.js": "/devradar/service-worker.js",
+    "static/css/main.21dbb4e6.chunk.css.map": "/devradar/static/css/main.21dbb4e6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.352972f3.js",
+    "static/js/2.3e331b21.chunk.js",
+    "static/css/main.21dbb4e6.chunk.css",
+    "static/js/main.c2f24214.chunk.js"
+  ]
+}
